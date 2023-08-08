@@ -5,3 +5,7 @@ Most of the code here should look very familiar to those of you who have taken t
 The actual code for doing this is within the "forward_and_backward_propagate" function - the actual recursive function
 
 measure.ipynb is a notebook that compares the performance of the course implementation and the recursion implementation particularly, the loss, accuracy, time, and memory usage.
+
+If you run this code in google colabs there seems to be a bug with regard to use of the %%timeit magic, if you encounter this error, remove that line, run the code, put the line magic back and then run the code again. Everything seems to work fine afterwards.
+
+Spoiler alert: is there isn't much difference between the two implementations.
